@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div className='bg-emerald-100 min-h-screen'>
+    <div className='bg-green-300 min-h-screen'>
       <Header />
 
       <Content />

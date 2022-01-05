@@ -5,7 +5,7 @@ import { BsLinkedin } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className='w-full py-4 px-8 bg-emerald-700 flex justify-center items-center shadow-xl absolute bottom-0 '>
+    <footer className='w-full mt-4 py-4 px-8 bg-emerald-700 flex justify-center items-center shadow-xl sm:absolute bottom-0 '>
       <>
         <p className='text-white mr-4 '>Desenvoldido por <span className='underline font-semibold'>Daniel Figueiredo</span>.</p>
       </>

@@ -7,7 +7,7 @@ const Calculator = () => {
     <div className='w-full lg:w-4/5 mx-auto flex flex-col sm:flex-row justify-center items-center ' >
 
       <InputBlock name={'Pixel'} />
-      <FaExchangeAlt className='text-4xl' />
+      <FaExchangeAlt className='text-2 sm:text-4xl' />
       <InputBlock name={'REM'} />
 
     </div>
