@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import InputBlock from '../InputBlock/InputBlock'
 import { FaExchangeAlt } from 'react-icons/fa'
 
@@ -15,15 +15,10 @@ const Calculator = () => {
 
   const handleRemChange = (newRem) => {
     setRem(newRem)
-    // let newPixelValue = newRem * 16
-    // console.log(newPixelValue)
-    // setPixel(newPixelValue)
+    let newPixelValue = newRem * 16
+    console.log(newPixelValue)
+    setPixel(newPixelValue)
   }
-
-  useEffect(() => {
-    handlePixelChange()
-    handleRemChange()
-  }, [pixel, rem])
 
   return (
     <div className='w-full lg:w-4/5 mx-auto flex flex-col sm:flex-row justify-center items-center ' >
