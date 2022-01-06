@@ -8,16 +8,23 @@ const Calculator = () => {
   const [rem, setRem] = useState(1)
 
   const handlePixelChange = (newPixel) => {
-    setPixel(newPixel)
-    let newRemValue = newPixel / 16
-    setRem(newRemValue)
+    let isnum = /^\d+$/.test(newPixel)
+
+    if (isnum) {
+      setPixel(newPixel)
+      let newRemValue = newPixel / 16
+      setRem(newRemValue)
+    }
   }
 
   const handleRemChange = (newRem) => {
-    setRem(newRem)
-    let newPixelValue = newRem * 16
-    console.log(newPixelValue)
-    setPixel(newPixelValue)
+    let isnum = /^\d+$/.test(newRem)
+
+    if (isnum) {
+      setRem(newRem)
+      let newPixelValue = newRem * 16
+      setPixel(newPixelValue)
+    }
   }
 
   return (
