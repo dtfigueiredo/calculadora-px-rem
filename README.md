@@ -24,3 +24,7 @@ Bibliotecas e Frameworks utilizados:
 ## Screenshots
 
 ![Captura de tela de 2022-01-06 18-55-54](https://user-images.githubusercontent.com/85001250/148457734-2a3f0916-743a-4853-a1c9-2473c87e6a6d.png)
+
+## Link para acesso
+
+ - [Clique aqui](https://pixeltoremcalculator.netlify.app/)
