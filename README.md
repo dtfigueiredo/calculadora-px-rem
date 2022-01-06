@@ -2,7 +2,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8732f220-0d18-40d8-b572-e8831b802bb2/deploy-status)](https://app.netlify.com/sites/pixeltoremcalculator/deploys)
 # Pixel to Rem Calculator
 
-Projeto para aprender e por em prática o uso do framework TailwindCSS. O objetivo do app é servir como um conversor de unidades CSS, expecificamente Pixel para REM e vice-versa.
+Projeto para aprender e por em prática o uso do framework TailwindCSS. O objetivo do app é servir como um conversor de unidades CSS, especificamente Pixel para REM e vice-versa.
 
 
 ## Instalação
