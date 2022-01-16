@@ -7,8 +7,11 @@ const Calculator = () => {
   const [pixel, setPixel] = useState(16)
   const [rem, setRem] = useState(1)
 
+  const handlePixelFocus = () => {
+    setPixel('')
+  }
   const handlePixelChange = (newPixel) => {
-    let isnum = /^\d+$/.test(newPixel)
+    let isnum = /^[\d.?!]+$/.test(newPixel)
 
     if (isnum) {
       setPixel(newPixel)
@@ -17,8 +20,11 @@ const Calculator = () => {
     }
   }
 
+  const handleRemFocus = () => {
+    setRem('')
+  }
   const handleRemChange = (newRem) => {
-    let isnum = /^\d+$/.test(newRem)
+    let isnum = /^[\d.?!]+$/.test(newRem)
 
     if (isnum) {
       setRem(newRem)
@@ -33,6 +39,7 @@ const Calculator = () => {
       <InputBlock
         value={pixel}
         settingPixel={handlePixelChange}
+        focusingPixel={handlePixelFocus}
         name={'Pixel'}
       />
 
@@ -41,6 +48,7 @@ const Calculator = () => {
       <InputBlock
         value={rem}
         settingRem={handleRemChange}
+        focusingRem={handleRemFocus}
         name={'REM'}
       />
 

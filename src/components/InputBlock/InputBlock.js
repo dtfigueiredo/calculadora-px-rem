@@ -13,12 +13,14 @@ const InputBlock = (props) => {
           type={'text'}
           value={props.value}
           onChange={event => props.settingPixel(event.target.value)}
+          onFocus={event => props.focusingPixel(event.target)}
           className='border border-gray-600 outline-none w-4/5 p-4 rounded-lg text-center text-lg font-semibold' />
         :
         <input
           type={'text'}
           value={props.value}
           onChange={event => props.settingRem(event.target.value)}
+          onFocus={event => props.focusingRem(event.target)}
           className='border border-gray-600 outline-none w-4/5 p-4 rounded-lg text-center text-lg font-semibold' />
       }
 
