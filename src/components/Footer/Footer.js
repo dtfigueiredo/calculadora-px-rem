@@ -11,12 +11,25 @@ const Footer = () => {
       </>
       <nav>
         <ul className='flex justify-between items-center'>
+
           <li className='mx-2 text-2xl text-white '>
-            <a href='https://github.com/dtfigueiredo' target='_blank' rel='noreferrer noopener'><FaGithubAlt /></a>
+            <a
+              href='https://github.com/dtfigueiredo'
+              aria-label='Github'
+              target='_blank'
+              rel='noreferrer noopener'>
+              <FaGithubAlt /></a>
           </li>
+
           <li className='mx-2 text-2xl text-white '>
-            <a href='https://www.linkedin.com/in/dtfigueiredo/' target='_blank' rel='noreferrer noopener'><BsLinkedin /></a>
+            <a
+              href='https://www.linkedin.com/in/dtfigueiredo/'
+              aria-label='Linkedin'
+              target='_blank'
+              rel='noreferrer noopener'>
+              <BsLinkedin /></a>
           </li>
+
         </ul>
       </nav>
     </footer>

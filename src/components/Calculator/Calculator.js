@@ -38,18 +38,20 @@ const Calculator = () => {
 
       <InputBlock
         value={pixel}
+        id='pixel'
+        name='Pixel'
         settingPixel={handlePixelChange}
         focusingPixel={handlePixelFocus}
-        name={'Pixel'}
       />
 
       <FaExchangeAlt className='text-2 sm:text-4xl' />
 
       <InputBlock
         value={rem}
+        id='rem'
+        name='REM'
         settingRem={handleRemChange}
         focusingRem={handleRemFocus}
-        name={'REM'}
       />
 
     </div>
