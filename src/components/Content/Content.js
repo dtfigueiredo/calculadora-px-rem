@@ -3,7 +3,7 @@ import Calculator from '../Calculator/Calculator'
 
 const Content = () => {
   return (
-    <main className='w-full sm:w-3/5 mx-auto mt-2'>
+    <main className='w-full sm:w-2/5 mx-auto mt-2'>
       <h2 className='text-center h2'>How the conversion works</h2>
 
       <p className='paragraph'>

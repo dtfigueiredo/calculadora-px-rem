@@ -2,7 +2,7 @@ import React from 'react'
 
 const Texts = () => {
   return (
-    <div className='w-full lg:w-3/5 mx-auto flex flex-col justify-center items-center ' >
+    <div className='w-full lg:w-2/5 mx-auto mt-4 flex flex-col justify-center items-center ' >
       <h3 className='h3'>
         EM vs. REM: The differences
       </h3>

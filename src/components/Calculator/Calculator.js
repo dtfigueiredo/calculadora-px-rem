@@ -17,6 +17,8 @@ const Calculator = () => {
       setPixel(newPixel)
       let newRemValue = newPixel / 16
       setRem(newRemValue)
+    } else {
+      setPixel('')
     }
   }
 
@@ -30,6 +32,8 @@ const Calculator = () => {
       setRem(newRem)
       let newPixelValue = newRem * 16
       setPixel(newPixelValue)
+    } else {
+      setRem('')
     }
   }
 
