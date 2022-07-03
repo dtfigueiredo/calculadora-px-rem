@@ -32,9 +32,11 @@ Bibliotecas e Frameworks utilizados:
 ## Screenshots
 
 WEB:
+<br>
 ![FULLHD-1920x1080](https://user-images.githubusercontent.com/85001250/177052662-5122c54f-6718-427b-90f8-686955441adc.png)
 
 MOBILE:
+<br>
 ![Galaxy-S9-Plus-S8-Plus-412x846](https://user-images.githubusercontent.com/85001250/177052686-b2606401-2166-456e-95ae-22e7c5f02902.png)
 
 
