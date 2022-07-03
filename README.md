@@ -24,6 +24,10 @@ Bibliotecas e Frameworks utilizados:
 ## Links úteis
 
  - [TailwindCSS React Install Guide](https://tailwindcss.com/docs/guides/create-react-app)
+
+## Link para acesso
+
+ - [Clique aqui](https://pixeltoremcalculator.netlify.app/)
  
 ## Screenshots
 
@@ -33,6 +37,4 @@ WEB:
 MOBILE:
 ![Galaxy-S9-Plus-S8-Plus-412x846](https://user-images.githubusercontent.com/85001250/177052686-b2606401-2166-456e-95ae-22e7c5f02902.png)
 
-## Link para acesso
 
- - [Clique aqui](https://pixeltoremcalculator.netlify.app/)
