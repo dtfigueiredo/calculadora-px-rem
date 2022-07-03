@@ -1,65 +1,59 @@
-import React, { useState } from 'react'
-import InputBlock from '../InputBlock/InputBlock'
-import { FaExchangeAlt } from 'react-icons/fa'
+import React, { useState } from "react";
+import { FiRefreshCw } from "react-icons/fi";
+
+import InputBlock from "../InputBlock/InputBlock";
 
 const Calculator = () => {
-
-  const [pixel, setPixel] = useState(16)
-  const [rem, setRem] = useState(1)
+  const [pixel, setPixel] = useState(16);
+  const [rem, setRem] = useState(1);
 
   const handlePixelFocus = () => {
-    setPixel('')
-  }
+    setPixel("");
+  };
+
   const handlePixelChange = (newPixel) => {
-    let isnum = /^[\d.?!]+$/.test(newPixel)
+    let isnum = /^[\d.?!]+$/.test(newPixel);
 
     if (isnum) {
-      setPixel(newPixel)
-      let newRemValue = newPixel / 16
-      setRem(newRemValue)
+      setPixel(newPixel);
+      let newRemValue = newPixel / 16;
+      setRem(newRemValue);
     } else {
-      setPixel('')
+      setPixel("");
     }
-  }
+  };
 
   const handleRemFocus = () => {
-    setRem('')
-  }
+    setRem("");
+  };
+
   const handleRemChange = (newRem) => {
-    let isnum = /^[\d.?!]+$/.test(newRem)
+    let isnum = /^[\d.?!]+$/.test(newRem);
 
     if (isnum) {
-      setRem(newRem)
-      let newPixelValue = newRem * 16
-      setPixel(newPixelValue)
+      setRem(newRem);
+      let newPixelValue = newRem * 16;
+      setPixel(newPixelValue);
     } else {
-      setRem('')
+      setRem("");
     }
-  }
+  };
 
   return (
-    <div className='w-full lg:w-4/5 mx-auto flex flex-col sm:flex-row justify-center items-center ' >
-
+    <div className="flex flex-col sm:flex-row justify-between items-center">
       <InputBlock
         value={pixel}
-        id='pixel'
-        name='Pixel'
+        id="pixel"
+        name="Pixel"
         settingPixel={handlePixelChange}
         focusingPixel={handlePixelFocus}
       />
 
-      <FaExchangeAlt className='text-2 sm:text-4xl' />
+      <FiRefreshCw className="mt-8 text-4xl sm:text-6xl rotate-90 sm:rotate-0" />
 
-      <InputBlock
-        value={rem}
-        id='rem'
-        name='REM'
-        settingRem={handleRemChange}
-        focusingRem={handleRemFocus}
-      />
-
+      <InputBlock value={rem} id="rem" name="REM" settingRem={handleRemChange} focusingRem={handleRemFocus} />
     </div>
-  )
-}
+  );
+};
 
-export default Calculator
+export default Calculator;

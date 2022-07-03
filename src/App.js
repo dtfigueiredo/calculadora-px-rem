@@ -1,21 +1,24 @@
-import React from 'react'
-import Header from './components/Header/Header'
-import Content from './components/Content/Content'
-import Texts from './components/Texts/Texts'
-import Footer from './components/Footer/Footer'
+import React from "react";
+
+import Content from "./components/Content/Content";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Texts from "./components/Texts/Texts";
 
 const App = () => {
   return (
-    <div className='bg-green-300 min-h-screen'>
+    <div className="bg-green-300 flex flex-col min-h-screen">
       <Header />
 
-      <Content />
+      <div className="flex-1">
+        <Content />
 
-      <Texts />
+        <Texts />
+      </div>
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

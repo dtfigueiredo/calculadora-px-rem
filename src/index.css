@@ -1,15 +1,21 @@
 @tailwind base;
 
+html,
+body {
+  @apply relative;
+  --webkit-font-smoothing: antialiased;
+}
+
 .paragraph {
-  @apply mx-auto my-4 px-4 text-base md:text-lg;
+  @apply mx-auto my-4 px-4 text-base md:text-xl;
 }
 
 .h2 {
   @apply mx-auto mt-6 mb-2 text-lg md:text-3xl font-semibold;
 }
 
-.h3{
-  @apply mx-auto mt-6 mb-2 text-lg md:text-2xl font-semibold
+.h3 {
+  @apply mx-auto mt-6 mb-2 text-lg md:text-2xl font-semibold;
 }
 
 @tailwind components;
