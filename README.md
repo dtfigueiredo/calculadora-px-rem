@@ -4,6 +4,9 @@
 
 Projeto para aprender e por em prática o uso do framework TailwindCSS. O objetivo do app é servir como um conversor de unidades CSS, especificamente Pixel para REM e vice-versa.
 
+Funcionalidades:
+* Conversão automática de Pixel para Rem (e vice-versa)
+* Copia o valor final da conversão para o clipboard
 
 ## Instalação
 
@@ -14,6 +17,7 @@ Para instalar a aplicação e todas suas dependências, utilize o comando abaixo
 ```
     
 Bibliotecas e Frameworks utilizados:
+* ReactJs
 * TailwindCss
 * React-Icons
 
@@ -23,7 +27,11 @@ Bibliotecas e Frameworks utilizados:
  
 ## Screenshots
 
-![Captura de tela de 2022-01-06 18-55-54](https://user-images.githubusercontent.com/85001250/148457734-2a3f0916-743a-4853-a1c9-2473c87e6a6d.png)
+WEB:
+![FULLHD-1920x1080](https://user-images.githubusercontent.com/85001250/177052662-5122c54f-6718-427b-90f8-686955441adc.png)
+
+MOBILE:
+![Galaxy-S9-Plus-S8-Plus-412x846](https://user-images.githubusercontent.com/85001250/177052686-b2606401-2166-456e-95ae-22e7c5f02902.png)
 
 ## Link para acesso
 
