@@ -7,7 +7,7 @@ import Texts from "./components/Texts/Texts";
 
 const App = () => {
   return (
-    <div className="bg-green-300 flex flex-col min-h-screen">
+    <div className="bg-green-300 flex flex-col h-full">
       <Header />
 
       <div className="flex-1">

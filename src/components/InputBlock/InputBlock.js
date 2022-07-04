@@ -40,7 +40,7 @@ const InputBlock = (props) => {
             onChange(event.currentTarget.value);
           }}
           onFocus={(event) => onFocus(event.currentTarget.value)}
-          className="w-full bg-transparent text-center text-lg font-semibold "
+          className="w-full bg-transparent text-center text-lg font-semibold outline-none border-none"
         />
 
         <button onClick={copyToClipboard}>
